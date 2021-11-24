@@ -1,0 +1,31 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: lightcyan;
+  border-radius: 10px;
+  display:flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 22px;
+  padding: 22px;
+  flex-grow: 1;
+}
+
+.card:hover {
+  box-shadow: -1px 5px 6px 1px rgb(0 0 0 / 10%);
+}
+
+.card img {
+  height: 150px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  text-align: left;
+  flex-grow: 1;
+  padding-left: 15px;
+}
